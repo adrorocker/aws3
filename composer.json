@@ -20,17 +20,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Adrosoftware\\Aws3\\": "src/"
+            "Adrosoftware\\Aws3\\": ["src/"]
         },
         "files": [
         ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Adrosoftware\\Aws3\\": "tests/"
-        },
-        "files": [
-        ]
+            "Adrosoftware\\Aws3\\": ["src/","tests/"]
+        }
     },
     "extra": {
         "branch-alias": {
