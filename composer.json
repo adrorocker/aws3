@@ -27,7 +27,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Adrosoftware\\Aws3\\": "tests/"
+            "Adrosoftware\\Aws3\\Tests\\": "tests/"
         },
         "files": [
         ]

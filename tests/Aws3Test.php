@@ -7,10 +7,9 @@
  * @author    Adro Rocker <alejandro.morelos@jarwebdev.com>
  */
 
-namespace Adrosoftware;
+namespace Adrosoftware\Aws3\Tests;
 
-use Adrosoftware\Aws3;
-
+use Adrosoftware\Aws3\Aws3;
 use PHPUnit\Framework\TestCase;
 
 class Aws3Test extends TestCase
@@ -18,6 +17,6 @@ class Aws3Test extends TestCase
     public function testConstructor()
     {
         $s3 = new Aws3();
-        $this->assertInstanceOf('Adrosoftware\Aws3', $s3);
+        $this->assertInstanceOf('Adrosoftware\Aws3\Aws3', $s3);
     }
 }

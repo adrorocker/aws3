@@ -1,6 +1,6 @@
 <?php
 
-namespace Adrosoftware;
+namespace Adrosoftware\Aws3;
 
 class Aws3
 {
